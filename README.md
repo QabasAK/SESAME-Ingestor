@@ -19,3 +19,6 @@ A full-stack Python system developed to automate the ingestion of experimental l
    - EPICS integration for triggering ingestion via process variables (hardware-level control).
  - **Reliability**:
   File size verification, source cleanup, and JSON metadata synchronization ensure consistent data states.
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
