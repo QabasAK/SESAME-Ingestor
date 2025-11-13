@@ -1,0 +1,66 @@
+[
+    {
+        "station": "IR",
+        "label": "IR_EXP_10",
+        "user": "ubuntu",
+        "ip_address": "192.168.1.1",
+        "log_file_path": "/logs/ir_exp10.log",
+        "email_to": [
+            "alice@example.com",
+            "bob@example.com"
+        ],
+        "log_size_mb": 42,
+        "timestamp": "2025-08-31T08:00:00"
+    },
+    {
+        "station": "BEATS",
+        "label": "BEATS_TEST_01",
+        "user": "root",
+        "ip_address": "10.0.0.2",
+        "log_file_path": "/logs/beats_test01.log",
+        "email_to": [
+            "charlie@example.com"
+        ],
+        "log_size_mb": 10,
+        "timestamp": "2025-08-31T08:05:00"
+    },
+    {
+        "station": "MS/XPD",
+        "label": "MS_RUN_23",
+        "user": "msuser",
+        "ip_address": "172.16.5.10",
+        "log_file_path": "/logs/ms_run23.log",
+        "email_to": [
+            "david@example.com",
+            "eve@example.com"
+        ],
+        "log_size_mb": 75,
+        "timestamp": "2025-08-31T08:10:00"
+    },
+    {
+        "station": "MS/XPD",
+        "label": "MS_EXP_15",
+        "user": "user",
+        "ip_address": "0.0.0.0",
+        "log_file_path": "/logs/ms_run23.log",
+        "email_to": [
+            "alice_again@example.com"
+        ],
+        "log_size_mb": 15,
+        "timestamp": "2025-08-31T09:09:56.232790"
+    },
+    {
+        "station": "MS/XPD",
+        "label": "MS_EXP_150",
+        "user": "root",
+        "ip_address": "10.10.10.10",
+        "log_file_path": "/opt/log.log",
+        "email_to": [
+            "mo@mo.com",
+            "mo@mo.cc",
+            "ff"
+        ],
+        "log_size_mb": 22,
+        "timestamp": "2025-08-31T10:15:21.770737"
+    }
+]
