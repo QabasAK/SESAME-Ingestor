@@ -82,7 +82,6 @@ class LogIngestor:
             sftp.close()
             ssh.close()
 
-
         try: 
             self._send_email(
                 subject=f"Log Ingestion - {station_name}",
