@@ -38,7 +38,7 @@ class LogIngestor:
     def _sendEmails(self, label, emails, local_path, station_name):
         context = zmq.Context()
         socket = context.socket(zmq.PUSH)
-        socket.connect("tcp://10.1.100.155:2525")
+        socket.connect("")
 
         sender = "it@sesame.org.jo"
         recipient = "; ".join(emails)
